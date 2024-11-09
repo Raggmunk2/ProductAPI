@@ -19,7 +19,7 @@ export function loadProducts() {
         const data = fs.readFileSync("./data.json", "utf-8")
         return JSON.parse(data)
     } catch (error) {
-        
+        console.log("Could not read data")
     }
 
 }
