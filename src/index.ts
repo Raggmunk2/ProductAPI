@@ -58,7 +58,7 @@ app.get("/search-products", bodyParser.json(), (req: Request, res: Response) => 
       return p.title;
     });
     console.log(titleArray);
-    const result = fuzzySearch(search, titleArray);
+    const result = fuzzySearch(search, jsonProducts);
     console.log("result: " + result);
     
     res.json(JSON.stringify(result)).status(200);
@@ -69,10 +69,10 @@ app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
 });
 
-function fuzzySearch(search: string, titleArray: string[]) {
-  const result = titleArray.filter((item) => {
+function fuzzySearch(search: string, array: any[]) {
+  const result = array.filter((item) => {
     const word = search.search.toString().toLowerCase();
-    return levenshteinDistance(word, item.toString().toLowerCase()) <= 2;
+    return levenshteinDistance(word, item.title.toString().toLowerCase()) <= 2;
   });
   return result;
 }
