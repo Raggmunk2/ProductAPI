@@ -1,4 +1,5 @@
 import fs from "fs"
+import product from "src/model/product";
 
 export function loadProducts() : any{
     try {
@@ -10,6 +11,6 @@ export function loadProducts() : any{
 
 }
 
-export function addProduct(newProduct:any) {
+export function addProduct(newProduct:product) {
     fs.writeFileSync("./src/data.json", JSON.stringify(newProduct));
 }

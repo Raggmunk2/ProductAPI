@@ -31,10 +31,8 @@ app.get("/products", (req: Request, res: Response) => {
 // Get with id endpoint returns one product
 app.get("/product/:id", (req: Request, res: Response) => {
   const stringId = req.params.id;
-  console.log(stringId);
   const jsonProducts = loadProducts();
   var id: number = +stringId;
-  console.log(jsonProducts[id - 1]);
   res.json(`${JSON.stringify(jsonProducts[id - 1])}`).status(200);
 });
 

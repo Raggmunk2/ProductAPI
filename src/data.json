@@ -5,8 +5,7 @@
     "price": 109.95,
     "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": { "rate": 3.9, "count": 120 }
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
   },
   {
     "id": 2,
@@ -14,8 +13,7 @@
     "price": 695,
     "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
     "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    "rating": { "rate": 4.6, "count": 400 }
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
   },
   {
     "id": 3,
@@ -23,8 +21,7 @@
     "price": 10.99,
     "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
     "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-    "rating": { "rate": 1.9, "count": 100 }
+    "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
   },
   {
     "id": 4,
@@ -32,8 +29,7 @@
     "price": 109,
     "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
     "category": "electronics",
-    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-    "rating": { "rate": 4.8, "count": 319 }
+    "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
   },
   {
     "id": 5,
@@ -41,8 +37,7 @@
     "price": 114,
     "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
     "category": "electronics",
-    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    "rating": { "rate": 4.8, "count": 400 }
+    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
   },
   {
     "id": 6,
@@ -50,8 +45,7 @@
     "price": 999.99,
     "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
     "category": "electronics",
-    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-    "rating": { "rate": 2.2, "count": 140 }
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
   },
   {
     "id": 7,
@@ -59,8 +53,7 @@
     "price": 39.99,
     "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-    "rating": { "rate": 3.8, "count": 679 }
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
   },
   {
     "id": 8,
@@ -68,8 +61,7 @@
     "price": 9.85,
     "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-    "rating": { "rate": 4.7, "count": 130 }
+    "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
   },
   {
     "id": 9,
@@ -77,7 +69,6 @@
     "price": 7.95,
     "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
     "category": "women's clothing",
-    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-    "rating": { "rate": 4.5, "count": 146 }
+    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
   }
 ]

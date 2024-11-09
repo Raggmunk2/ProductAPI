@@ -1,5 +1,6 @@
+import product from "./../model/product"
 // Fuzzy search algorithm to filter out matching searches. Static threshold of 2
-export function fuzzySearch(search: string, array: any[]) {
+export function fuzzySearch(search: string, array: product[]) {
     const result = array.filter((item) => {
       const word = search.search.toString().toLowerCase();
       return levenshteinDistance(word, item.title.toString().toLowerCase()) <= 2;
@@ -13,8 +14,6 @@ export function fuzzySearch(search: string, array: any[]) {
       Array(b.length + 1).fill(0)
     );
   
-    console.log(a);
-    console.log(b);
     for (let i = 0; i <= a.length; i++) matrix[i][0] = i;
     for (let j = 0; j <= b.length; j++) matrix[0][j] = j;
   
