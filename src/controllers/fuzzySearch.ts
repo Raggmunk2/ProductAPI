@@ -3,10 +3,8 @@ import product from "./../model/product"
 export function fuzzySearch(search: string, array: product[]) {
     const result = array.filter((item) => {
       const word = search.toLowerCase();
-      console.log("item: "+JSON.stringify(item.title.toLowerCase()))
       return levenshteinDistance(word, item.title.toLowerCase()) <= 2;
     });
-    console.log("result: " + result)
     return result;
   }
   
