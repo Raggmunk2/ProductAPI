@@ -7,6 +7,8 @@ To start server:
 
 - npm run dev
 
+Note: The data is read from a file to populate the server
+
 To test all endpoints:
  
 See documentation in Postman on this link:  https://documenter.getpostman.com/view/18505121/2sAY52czNg 
