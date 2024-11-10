@@ -7,7 +7,11 @@ To start server:
 
 - npm run dev
 
-Note: The data is read from a file to populate the server
+Note: 
+- if you don't have nodemon installed , install it with "npm i nodemon" in terminal  
+- The data is read from a file to populate the server
+
+
 
 To test all endpoints:
  
