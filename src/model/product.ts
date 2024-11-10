@@ -2,7 +2,7 @@
 // Class product with attributes matching in the data.json file
 class product {
   id: number;
-  title: string;
+  name: string;
   price: number;
   description: string;
   category: string;
@@ -10,14 +10,14 @@ class product {
 
   constructor(
     id: number,
-    title: string,
+    name: string,
     price: number,
     description: string,
     category: string,
     image: string
   ) {
     this.id = id;
-    this.title = title;
+    this.name = name;
     this.price = price;
     this.description = description;
     this.category = category;

@@ -3,7 +3,7 @@ import product from "./../model/product"
 export function fuzzySearch(search: string, array: product[]) {
     const result = array.filter((item) => {
       const word = search.toLowerCase();
-      return levenshteinDistance(word, item.title.toLowerCase()) <= 2;
+      return levenshteinDistance(word, item.name.toLowerCase()) <= 2;
     });
     return result;
   }
@@ -30,7 +30,6 @@ export function fuzzySearch(search: string, array: product[]) {
         }
       }
     }
-    console.log(matrix[a.length][b.length])
     return matrix[a.length][b.length];
   }
   

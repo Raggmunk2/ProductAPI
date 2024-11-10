@@ -29,7 +29,7 @@ app.get("/products", (req: Request, res: Response) => {
 });
 
 // Get with id endpoint returns one product
-app.get("/product/:id", (req: Request, res: Response) => {
+app.get("/products/:id", (req: Request, res: Response) => {
   const stringId = req.params.id;
   const jsonProducts = loadProducts();
   var id: number = +stringId;
@@ -37,7 +37,7 @@ app.get("/product/:id", (req: Request, res: Response) => {
 });
 
 // Post endpoint to add product. Writes to file to add it
-app.post("/add-product", bodyParser.json(), (req: Request, res: Response) => {
+app.post("/products", bodyParser.json(), (req: Request, res: Response) => {
   let stringBody = req.body;
   const jsonProducts = loadProducts();
   let jsonObject = JSON.parse(JSON.stringify(stringBody));
@@ -47,8 +47,8 @@ app.post("/add-product", bodyParser.json(), (req: Request, res: Response) => {
   res.json(`${JSON.stringify(stringBody)}`).status(200);
 });
 
-// Get endpoint with fuzzy search of the titles. Returns the matching products
-app.get("/search-products", (req: Request, res: Response) => {
+// Get endpoint with fuzzy search of the names. Returns the matching products
+app.get("/search", (req: Request, res: Response) => {
     const search = req.query.search as string;
     const jsonProducts = loadProducts();
     const result = fuzzySearch(search, jsonProducts);
