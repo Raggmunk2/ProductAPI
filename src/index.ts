@@ -2,14 +2,20 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
-const cors = require('cors')
+import cors  from 'cors';
 
 import { fuzzySearch } from "./controllers/fuzzySearch";
 import {loadProducts , addProduct} from "./controllers/dataLoader"
 
 dotenv.config();
+const corsOptions = {
+  origin: '*',
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}
 const app: Express = express();
-app.use(cors())
+
+app.use(cors(corsOptions))
 // To parse the body
 app.use(
   bodyParser.urlencoded({
